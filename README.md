@@ -16,7 +16,7 @@ Teste técnico Irrah Tech
 Clone o repositorio
 
 ```bash
-git clone https://github.com/frontio-ai/vite-template.git
+git clone https://github.com/PedroDecol/Big-Chat-Brasil.git
 ```
 
 ### Instale as dependências
