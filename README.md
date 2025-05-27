@@ -1,50 +1,59 @@
-# Vite & HeroUI Template
+# Big Chat Brasil - Front-end
 
-This is a template for creating applications using Vite and HeroUI (v2).
+Teste técnico Irrah Tech
 
-[Try it on CodeSandbox](https://githubbox.com/frontio-ai/vite-template)
+## Tecnologias utilizadas
 
-## Technologies Used
+- React + Vite
+- Tailwind CSS
+- TypeScript
+- JSON Server (simulando API REST)
+- HeroUI
+- Framer Motion
 
-- [Vite](https://vitejs.dev/guide/)
-- [HeroUI](https://heroui.com)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Framer Motion](https://www.framer.com/motion)
+## 📦 Instalação
 
-## How to Use
-
-To clone the project, run the following command:
+Clone o repositorio
 
 ```bash
 git clone https://github.com/frontio-ai/vite-template.git
 ```
 
-### Install dependencies
+### Instale as dependências
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+Exemplo usando `npm`
 
 ```bash
 npm install
 ```
 
-### Run the development server
+### Inicie o Front-end
 
 ```bash
 npm run dev
 ```
 
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
+### Abra outro terminal
 
 ```bash
-public-hoist-pattern[]=*@heroui/*
+cd src/api
 ```
 
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
+### Inicie o Server
 
-## License
+```bash
+npm run server
+```
 
-Licensed under the [MIT license](https://github.com/frontio-ai/vite-template/blob/main/LICENSE).
+### Login de exemplo 
+
+CPF: 12345678900
+Tipo: PF 
+
+### EndPoints Utilizados 
+
+`http://localhost:3003/User`
+`http://localhost:3003/Conversation`
+`http://localhost:3003/Messages`
+
+
