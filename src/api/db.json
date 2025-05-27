@@ -1,0 +1,83 @@
+{
+  "User": [
+    {
+      "id": "1",
+      "nome": "Usuario Teste",
+      "Tipo": "PF",
+      "CPF": "12345678900",
+      "Email": "teste@teste.com"
+    },
+    {
+      "id": "2",
+      "nome": "Maria",
+      "CPF": "98765432100",
+      "Tipo": "PF",
+      "Email": "maria@teste.com"
+    }
+  ],
+  "Conversation": [
+    {
+      "id": "1",
+      "user1Id": 1,
+      "user2Id": 2
+    }
+  ],
+  "Messages": [
+    {
+      "id": "1",
+      "conversationId": 1,
+      "senderId": 1,
+      "content": "Olá Maria!",
+      "timestamp": "2024-05-23T15:00:00Z"
+    },
+    {
+      "id": "2",
+      "conversationId": 1,
+      "senderId": 2,
+      "content": "Oi! Tudo bem?",
+      "timestamp": "2024-05-23T15:01:00Z"
+    },
+    {
+      "id": "ffb9",
+      "conversationId": "1",
+      "senderId": 1,
+      "content": "olá",
+      "timestamp": "2025-05-23T19:09:07.131Z"
+    },
+    {
+      "id": "69a4",
+      "conversationId": "1",
+      "senderId": 1,
+      "content": "teste BCB",
+      "timestamp": "2025-05-23T19:09:52.366Z"
+    },
+    {
+      "id": "b513",
+      "conversationId": "1",
+      "senderId": 1,
+      "content": "olá,teste",
+      "timestamp": "2025-05-26T19:30:47.650Z"
+    },
+    {
+      "id": "2124",
+      "conversationId": "1",
+      "senderId": 1,
+      "content": "teste",
+      "timestamp": "2025-05-26T20:17:58.926Z"
+    },
+    {
+      "id": "e930",
+      "conversationId": "1",
+      "senderId": 1,
+      "content": "123",
+      "timestamp": "2025-05-26T20:56:00.412Z"
+    },
+    {
+      "id": "2d25",
+      "conversationId": "1",
+      "senderId": 2,
+      "content": "olá",
+      "timestamp": "2025-05-26T20:57:12.533Z"
+    }
+  ]
+}
